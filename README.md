@@ -68,6 +68,12 @@ The agent asks before it deletes a submission or replays webhook deliveries.
 
 The skill is a plain [Agent Skills](https://agentskills.io) folder: `plugins/ikiform/skills/ikiform/`. Copy it into your agent's skills directory.
 
+With the [skills CLI](https://skills.sh/preetsuthar17/ikiform-plugin/ikiform), for Claude Code, Cursor, Codex and other agents:
+
+```bash
+npx skills add preetsuthar17/ikiform-plugin
+```
+
 Claude Code without the plugin:
 
 ```bash
