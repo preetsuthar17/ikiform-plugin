@@ -1,0 +1,16 @@
+{
+  "name": "ikiform",
+  "description": "Ikiform for Claude Code: connect any form to Ikiform, verify its webhooks and manage submissions over MCP.",
+  "owner": {
+    "name": "Preet Suthar",
+    "email": "hello@ikiform.com",
+    "url": "https://ikiform.com"
+  },
+  "plugins": [
+    {
+      "name": "ikiform",
+      "source": "./plugins/ikiform",
+      "description": "Connect any HTML, framework or server form to Ikiform, verify signed webhooks, and read and triage submissions with the Ikiform MCP server."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ikiform",
+  "displayName": "Ikiform",
+  "version": "0.1.0",
+  "description": "Connect any HTML, framework or server form to Ikiform, verify signed webhooks, and read and triage submissions with the Ikiform MCP server.",
+  "author": {
+    "name": "Preet Suthar",
+    "email": "hello@ikiform.com",
+    "url": "https://ikiform.com"
+  },
+  "homepage": "https://ikiform.com/docs",
+  "license": "MIT",
+  "keywords": ["forms", "form-backend", "webhooks", "mcp", "ikiform"],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://ikiform.com/docs",
+  "supportUrl": "mailto:hello@ikiform.com",
+  "privacyPolicyUrl": "https://ikiform.com/privacy",
+  "termsOfServiceUrl": "https://ikiform.com/terms"
+}

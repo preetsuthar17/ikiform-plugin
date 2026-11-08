@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ikiform": {
+      "type": "http",
+      "url": "https://ikiform.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${IKIFORM_API_KEY}"
+      }
+    }
+  }
+}

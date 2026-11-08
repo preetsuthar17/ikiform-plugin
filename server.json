@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.preetsuthar17/ikiform",
+  "title": "Ikiform",
+  "description": "Form backend for any website form: list and create forms, read and triage submissions, debug webhooks.",
+  "websiteUrl": "https://ikiform.com/docs",
+  "repository": {
+    "url": "https://github.com/preetsuthar17/ikiform-plugin",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ikiform.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by an Ikiform secret API key (ik_sk_...) from https://ikiform.com/dashboard/api-keys",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
