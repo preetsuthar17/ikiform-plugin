@@ -133,14 +133,7 @@ In `.vscode/mcp.json`. VS Code asks for the key the first time and stores it sec
 
 ### Tools
 
-| Tool                                              | Scope               |
-| ------------------------------------------------- | ------------------- |
-| `list_forms`, `get_form`                          | `forms:read`        |
-| `create_form`, `update_form`                      | `forms:write`       |
-| `list_submissions`, `get_submission`              | `submissions:read`  |
-| `mark_spam`, `mark_not_spam`, `delete_submission` | `submissions:write` |
-| `list_webhook_endpoints`, `list_deliveries`       | `webhooks:read`     |
-| `send_test_event`, `replay_failed_deliveries`     | `webhooks:write`    |
+The full list of tools and the scope each one needs is at https://ikiform.com/docs/mcp#tools.
 
 The server also has a `connect_form` prompt that returns setup steps for a form.
 
